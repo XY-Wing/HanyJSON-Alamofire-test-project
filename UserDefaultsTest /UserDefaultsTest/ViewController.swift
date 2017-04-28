@@ -147,6 +147,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         var alpha: CGFloat = 0
         if contentOffsetY <= 0 {
+            //324是tableview一开始的绝对值偏移量
             alpha = -contentOffsetY / 324
             
             alpha = alpha >= 1 ? 1 : alpha
