@@ -27,6 +27,8 @@ class Student:NSObject, Score {
     init(math: Double, english: Double) {
         self.math = math
         self.english = english
+        
     }
-
+    
+    
 }

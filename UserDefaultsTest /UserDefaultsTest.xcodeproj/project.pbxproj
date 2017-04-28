@@ -10,6 +10,8 @@
 		99FF36E35C9649739E63757F /* Pods_UserDefaultsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7423C14FA24DB30C0CFA0956 /* Pods_UserDefaultsTest.framework */; };
 		A2032AAB1EB17EEC0057CE3D /* XYTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2032AAA1EB17EEC0057CE3D /* XYTableViewCell.swift */; };
 		A2032AAD1EB18D530057CE3D /* XYModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2032AAC1EB18D530057CE3D /* XYModel.swift */; };
+		A2032AAF1EB1BD5D0057CE3D /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2032AAE1EB1BD5D0057CE3D /* NewViewController.swift */; };
+		A225BFFB1EB2E5FA0036D4A9 /* IMG_0890.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A225BFFA1EB2E5FA0036D4A9 /* IMG_0890.JPG */; };
 		A2EADD711EAD90AD00976D35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EADD701EAD90AD00976D35 /* AppDelegate.swift */; };
 		A2EADD731EAD90AD00976D35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EADD721EAD90AD00976D35 /* ViewController.swift */; };
 		A2EADD761EAD90AD00976D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EADD741EAD90AD00976D35 /* Main.storyboard */; };
@@ -49,6 +51,8 @@
 		7423C14FA24DB30C0CFA0956 /* Pods_UserDefaultsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserDefaultsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2032AAA1EB17EEC0057CE3D /* XYTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYTableViewCell.swift; sourceTree = "<group>"; };
 		A2032AAC1EB18D530057CE3D /* XYModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYModel.swift; sourceTree = "<group>"; };
+		A2032AAE1EB1BD5D0057CE3D /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = NewViewController.swift; sourceTree = "<group>"; };
+		A225BFFA1EB2E5FA0036D4A9 /* IMG_0890.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0890.JPG; sourceTree = "<group>"; };
 		A2EADD6D1EAD90AD00976D35 /* UserDefaultsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserDefaultsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EADD701EAD90AD00976D35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2EADD721EAD90AD00976D35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -141,9 +145,11 @@
 		A2EADD6F1EAD90AD00976D35 /* UserDefaultsTest */ = {
 			isa = PBXGroup;
 			children = (
+				A225BFFA1EB2E5FA0036D4A9 /* IMG_0890.JPG */,
 				A2FEC8881EB02CB8006AFCFF /* UIVIew+Positioning.swift */,
 				A2EADD701EAD90AD00976D35 /* AppDelegate.swift */,
 				A2EADD721EAD90AD00976D35 /* ViewController.swift */,
+				A2032AAE1EB1BD5D0057CE3D /* NewViewController.swift */,
 				A2032AAA1EB17EEC0057CE3D /* XYTableViewCell.swift */,
 				A2032AAC1EB18D530057CE3D /* XYModel.swift */,
 				A2EADDA21EAD9A7F00976D35 /* Student.swift */,
@@ -290,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A225BFFB1EB2E5FA0036D4A9 /* IMG_0890.JPG in Resources */,
 				A2EADD7B1EAD90AD00976D35 /* LaunchScreen.storyboard in Resources */,
 				A2EADD781EAD90AD00976D35 /* Assets.xcassets in Resources */,
 				A2EADD761EAD90AD00976D35 /* Main.storyboard in Resources */,
@@ -374,6 +381,7 @@
 				A2FEC8871EB02A2A006AFCFF /* Int+XYExtension.swift in Sources */,
 				A2032AAB1EB17EEC0057CE3D /* XYTableViewCell.swift in Sources */,
 				A2FEC8891EB02CB8006AFCFF /* UIVIew+Positioning.swift in Sources */,
+				A2032AAF1EB1BD5D0057CE3D /* NewViewController.swift in Sources */,
 				A2EADD731EAD90AD00976D35 /* ViewController.swift in Sources */,
 				A2EADDA31EAD9A7F00976D35 /* Student.swift in Sources */,
 				A2EADD711EAD90AD00976D35 /* AppDelegate.swift in Sources */,
