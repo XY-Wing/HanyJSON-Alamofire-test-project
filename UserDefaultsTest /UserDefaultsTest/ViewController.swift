@@ -41,7 +41,12 @@ class ViewController: UIViewController {
         imageV.contentMode = .scaleAspectFill
         return imageV
     }()
-    
+//    override func viewWillAppear(_ animated: Bool) {
+//        tableView.delegate = self
+//    }
+//    override func viewWillDisappear(_ animated: Bool) {
+//        tableView.delegate = nil
+//    }
     override func viewDidLoad() {
         super.viewDidLoad()
         

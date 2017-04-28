@@ -11,6 +11,14 @@ import HandyJSON
 import SnapKit
 class NewViewController: UIViewController {
     fileprivate var v: UITextView?
+    
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
+        navigationController?.navigationBar.tintColor = UIColor.white
+        navigationController?.navigationBar.barTintColor = UIColor.red
+        navigationController?.navigationBar.subviews.first?.alpha = 1
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
