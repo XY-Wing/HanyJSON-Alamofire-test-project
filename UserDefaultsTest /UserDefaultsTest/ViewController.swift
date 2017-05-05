@@ -114,7 +114,7 @@ class ViewController: UIViewController {
 //MARK: - UITableViewDelegate, UITableViewDataSource 代理方法／数据源
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return model?.data?.data?.count ?? 0
+        return model?.data?.data?.count ?? 10
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
